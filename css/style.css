@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 10px 0;
+    line-height: 1.3em;
+}
+
+input[type="search"],input[type="password"], input[type="login"]{
+    color: #5d5d5d;
+    width: 60%;
+    padding: 6px 6px 6px 10px;
+}
+
+input, textarea{
+    outline: none;
+    border: solid 1px #f2f2f2;
+}
+
+h1, h2{
+    font: normal 160% 'century gothic', arial, sans-serif;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+h2{
+    color: black;
+    font-size: 140%;
+}
+
+a, a:hover{
+    outline: none;
+    text-decoration: underline;
+    color: #a9e43b;
+}
+
+hr{
+    border: solid 1px #f3f3f3;
+}
+
+.header{
+    background-color: #4e409d;
+    height: auto;
+    font-size: 0.8rem;
+    margin: 0;
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content,  .footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width:  880px;
+    padding-bottom: 40px;
+}
+
+.logo h1, .logo h2{
+    font-size:  400%;
+    margin-left: 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover{
+    padding:  22px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+}
+
+.logo_text h2{
+    font-size: 1.5em;
+    font-size: 120%;
+    padding:  4px 0 0 0 ;
+    color: #999;
+}
+
+.menubar{
+    width: 900px;
+    height: 46px;
+}
+
+ul.menu{
+    float: right;
+}
+
+ul.menu li a{
+    font: normal 120% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 25px 6px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu li{
+    float: left;
+    list-style: none;
+    margin: 0 1rem 0 0;
+}
+
+ul.menu li.selected a{
+    background-color: rgb(94, 187, 94) ;
+    color: white;
+    border-radius: 0.4rem;
+
+}
+
+ul.menu li.selected a:hover{
+    color: black;
+
+}
+
+
+ul.menu li a:hover{
+    color: greenyellow;
+
+}
+
+.site_content{
+    width: 840px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+
+.sitebar_container{
+    float: right;
+    width: 224px;
+}
+
+.sitebar{
+    float: right;
+    width: 220px;
+    padding: 5%;
+    border: solid 1px #f2f2f2;
+    border-radius: 0.4rem;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+}
+
+.sitebar h2{
+    color: yellowgreen;
+}
+
+.sitebar input{
+    margin-bottom: 6px;
+}
+
+.btn{
+    padding: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #cccccc;
+}
+
+.forgetPass_Regist{
+    font-size: 80%;
+    color: yellowgreen;
+}
+
+.top_film{
+    list-style: none;
+    padding: 10px;   
+}
+
+.top_film_grade{
+    float: right;
+}
+
+.top_film li{
+    margin-bottom: 10px;
+}
+
+.content{
+    text-align: left;
+    width: 580px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.film_block img{
+    width: 22%;
+    border-radius: 5px;
+    border: solid 5px lightgray;
+}
+
+.film_block{
+    margin-bottom: 5%;
+}
+
+.posts{
+    margin: 1rem 0 5rem 0;
+}
+
+.posts_content{
+    font-size: 0.9rem;
+    color: rgb(90, 90, 90);
+}
+
+.rating{
+    list-style: none;
+    text-align:center;
+    justify-content: space-between;
+    font-size: 140%;
+}
+
+.rating li{
+    display: inline;
+    margin-right: 6%;    
+}
+
+.rating li span{
+    color: #499f70;
+    font-size: 90%;
+}
+
+
+.about_film img{
+    float: left;
+    width: 30%;
+    border: solid 5px lightgray;
+    margin-right: 30px;
+}
+
+.about_film p{
+    font-size: 110%;
+}
+
+.send{
+    margin-bottom: 4%;
+}
+
+.send input[type="text"],textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+}
+
+.send input[type = "text"]{
+    width:  98%;
+    padding: 6px;
+}
+
+.send textarea{
+    width: 98%;
+    padding: 6px;
+    height: 200px;
+}
+
+.send input[type = "submit"]{
+    border: none;
+    background-color: #9c66d1;
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+}
+
+.send input[type = "submit"]:hover{
+    background-color: #c6a3e9;
+}
+
+
+.content_contact h2{
+    font-size: 180%;
+}
+
+.content_contact p{
+    font-size: 120%;
+    color: #999;
+    margin: 10px 0;
+}
+
+.send{
+    margin-bottom: 4%;
+}
+
+.send_contact input[type="text"],textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+}
+
+.send_contact input[type = "text"]{
+    width:  55%;
+    padding: 6px;
+}
+
+.send_contact textarea{
+    width: 55%;
+    padding: 6px;
+    height: 200px;
+}
+
+.send_contact input[type = "submit"]{
+    border: none;
+    background-color: #9c66d1;
+    padding: 16px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ssend_contact input[type = "submit"]:hover{
+    background-color: #c6a3e9;
+}
+
+
+table{
+    width: 70%;
+    border: solid 1px #f4f4f4;
+}
+
+td{
+    padding: 2%;
+    border: solid 1px #f4f4f4;
+}
+
+td img{
+    width: 60px;
+    vertical-align: middle;
+}
+
+.center{
+    text-align: center;
+}
+
+.rating{
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #4e409d;
+    height: 50px;
+    min-width: 900px;
+
+    padding: 28px 0 5px 0;
+    text-align: center;
+    font-size: 110%;
+    color: #999;
+}
+
+.footer p a{
+    color: #999;
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    color: white;
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px){
+
+    hr{
+        border-width: 3px;
+    }
+
+    .header{
+        min-width: 100%;
+        text-align: center;
+    }
+
+
+    .logo{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .logo_text h2{
+        font-size: 120%;
+    }
+
+    ul.menu{
+        float: none;
+    }
+
+    .menubar{
+        width: 100%;
+        height: auto;
+        padding-bottom: 2%;
+    }
+
+    ul.menu li a{
+        display: inline-block;
+    }
+
+
+    ul.menu li {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    ul.menu li.selected a{
+        background: none;
+        border: none;
+        color: #d2ff8c;
+    }
+    ul.menu li.selected a:hover{
+        color: yellowgreen;
+    }
+
+    .site_content{
+        width: 100%;
+    }
+
+    .sitebar{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .film_block img{
+        width: 43%;
+    }
+
+    .content{
+        width: 100%;
+        text-align: center;
+        padding: 0 1%;
+    }
+
+    .posts_content{
+        font-size: 0.8em;
+        text-align: left;
+        margin: 0 4%;
+
+    }
+    .posts{
+        font-size: 1.5em;
+        margin: 0rem 0 2rem 0;
+    }
+
+    .posts h2{
+        font-size: 110%;
+    }
+
+    .content_contact{
+        text-align: center;
+        width: 100%;
+    }
+
+    .content_contact h2{
+        margin: 0;
+    }
+    
+    .content_contact p{
+        margin: 0 0 1rem 0;
+    }
+    
+    .send_contact input[type = "text"] {
+        width: 75%;
+    }
+    .send_contact textarea {
+        width: 75%;
+    }
+
+    table{
+        width: 100%;
+        font-size: 95%;
+        text-align: left;
+    }
+
+    
+    .posts{
+        align-items: center;
+        text-align: center;
+    }
+
+    .about_film img{
+        float: none;
+        width: 74%;
+    }
+
+    .rating li{
+        display:block;
+    }
+
+    .rating{
+        margin-bottom: 3%;
+    }
+
+    .reviews{
+        text-align: left;
+        width: 80%;
+        padding: 4%;
+    }
+}
+
