@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>КіноФан</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="КіноФан - найбільший фанат кіно">
+    <meta name="keywords" content="фільми, фільми онлайн, дивитись онлайн фільми"/>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+    <div class="main">
+
+        <div class="header">
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="index.html">КіноФан</a></h1>
+                    <h2>КіноФан - найбільший фанат кіно</h2>
+                </div>
+            </div>
+
+            <div class="menubar">
+                <ul class="menu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#">Фільми</a></li>
+                    <li><a href="#">Серіали</a></li>
+                    <li class="selected"><a href="rating.html">Рейтинг фільмів</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="site_content">
+            
+            <div class="sitebar_container">
+                <div class="sitebar">
+
+                    <h2>Пошук</h2>
+                    <form method="post" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="кіно" />
+                        <input type="submit" class="btn" value="знайти"/>
+                    </form>
+
+                </div>
+                
+                <div class="sitebar">
+                    <h2>Вход</h2>
+                    <form method="post" action="#" id="login_form">
+                        
+                        <input type="login" name="login" placeholder="Логін"  />
+                        <input type="password" name="password" placeholder="Пароль" />
+                        <input type="submit" class="btn" value="Увійти"/>
+                        
+                        <p class="forgetPass_Regist">
+                            <a href="#">забули пароль?</a>
+                             | 
+                            <a href="#">регістрація</a>
+                        </p> 
+                    </form>
+                </div>
+
+                <div class="sitebar">
+                    <h2>Новини</h2>
+                    <span>31.03.2017</span>  
+                    <p> Ми запустили <br> розширений пошук </p>
+                    <a href="#">читати</a>
+                </div>
+
+                <div class="sitebar">
+                    <h2>Рейтинг<br>фільмів</h2>
+                    <ul class="top_film">
+                        <li><a href="show.html">Людина з Торонто</a> <span class="top_film_grade">9.0</span> </li>
+                        <li><a href="#">Цинтерсталл</a> <span class="top_film_grade">8.1</span> </li>
+                        <li><a href="#">Матриця</a> <span class="top_film_grade">8.0</span> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content_rating">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Фільми</th>
+                        <th class="center">Рік</th>
+                        <th class="center">Рейтинг</th>
+                    </tr>
+
+                    <tr>
+                        <td class="center"><img src="picture/people_from_toronto.png"></td>
+                        <td>1. <a href="show.html">Людина з Торонто</a></td>
+                        <td class="center">2014</td>
+                        <td class="center rating">9.0</td>
+                    </tr>
+
+                    <tr>
+                        <td class="center"><img src="picture/inter.png"></td>
+                        <td>2. <a href="show.html">Цинтерсталл</a></td>
+                        <td class="center">2014</td>
+                        <td class="center rating">8.1</td>
+                    </tr>
+
+                    <tr>
+                        <td class="center"><img src="picture/matrix.png"></td>
+                        <td>3. <a href="show.html">Матриця</a></td>
+                        <td class="center">2001</td>
+                        <td class="center rating">8.0</td>
+                    </tr>
+
+
+                </table>
+
+
+            </div>
+
+            
+
+
+        </div>
+        
+        <div class="footer">
+            <p>
+                <a href="index.html">Головна</a> |
+                <a href="#">Фільми</a> |
+                <a href="#">Серіали</a> |
+                <a href="rating.html">Рейтинг фільмів</a> |
+                <a href="contact.html">Контакти</a>
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
